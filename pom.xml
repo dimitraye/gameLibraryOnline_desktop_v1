@@ -10,4 +10,19 @@
         <maven.compiler.release>23</maven.compiler.release>
         <exec.mainClass>com.gamelibraryonlinedesktop1.gamelibraryonline_desktop_v1.GameLibraryOnline_Desktop_V1</exec.mainClass>
     </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+    </dependencies>
 </project>
