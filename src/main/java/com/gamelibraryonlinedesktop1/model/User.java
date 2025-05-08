@@ -71,4 +71,14 @@ public class User {
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private Statistic statistic;
+    
+    
+    public long getIdUser() {
+    return idUser;
+}
+
+    public void setIdUser(long idUser) {
+        this.idUser = idUser;
+    }
+
 }
