@@ -123,4 +123,13 @@ public class Game {
         this.commentaries = commentaries;
     }
     
+    public VideoGameGenre getGenre() {
+    return videoGameGenre;
+}
+
+    public void setGenre(VideoGameGenre videoGameGenre) {
+        this.videoGameGenre = videoGameGenre;
+    }
+
+    
 }
